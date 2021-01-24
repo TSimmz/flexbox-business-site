@@ -127,8 +127,8 @@ main {
 }
 
 .aircraft img {
-    max-height: 200px;
-    max-width: 300px;
+    max-height: 300px;
+    max-width: 400px;
 }
 
 .team-member {
@@ -177,15 +177,6 @@ main {
 
 footer {
     width: 100%;
-    display: flex;
-}
-
-.contact-info {
-    height: 100px;
-    width: 100%;
-}
-
-.footer-footer {
     display: inline-flex;
     width: 100%;
     
