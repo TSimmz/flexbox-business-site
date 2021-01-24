@@ -1,0 +1,194 @@
+html {
+    font-size: 20px;
+}
+
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+header { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    color: white;
+    background-color: #005EB8;
+}
+
+h1 { 
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.0rem;
+}
+
+.title-text {
+    color: white;
+    margin-top: 10px;
+}
+
+nav {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    
+    width: 100%;
+}
+
+p {
+    font-size: 0.75rem;
+
+}
+
+.nav-item {
+    display: inline-block;
+    margin: 25px 50px; 
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    width: 100%;
+}
+
+hr {
+    display: block;
+    width: 75%;
+    color: #333373;
+    border-style: solid;
+    background-color: #333373;
+}
+
+main { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.banner {
+    height: 600px;
+    width: 100%;
+    background-image: url('../media/sim-exterior.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.motto-container {
+    color: #333373;
+    background-color: white;
+    height: 100px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.motto-text {
+    font-style: italic;
+}
+
+.section {
+    height: 500px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-header {
+    margin-top: 20px;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flavor-text {
+    margin: 5px 0px 0px 0px;
+    text-align: center;
+    color: #333373;
+    font-style: italic;
+}
+
+.aircraft img {
+    max-height: 200px;
+    max-width: 300px;
+}
+
+.team-member {
+    height: 300px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: flex-end;
+}
+
+.marc {
+    background-image: url('../media/marc-parent.jpg');
+}
+
+.ray {
+    background-image: url('../media/ray-duke.jpg');
+}
+
+.steve {
+    background-image: url('../media/steve-baigrie.jpg');
+}
+
+
+.team-text { 
+    height: 15%;
+    width: 50%;
+    margin: 0px 10px;
+}
+
+.icon { 
+    width: 100px;
+    height: 50px;
+    background-image: url('https://www.cae.com/assets/images/cae-context.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.copyright {
+    font-size: 10px;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+}
+
+.contact-info {
+    height: 100px;
+    width: 100%;
+}
+
+.footer-footer {
+    display: inline-flex;
+    width: 100%;
+    
+    justify-content: space-between;
+    align-items: flex-end;
+}
