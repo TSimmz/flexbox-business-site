@@ -17,15 +17,15 @@ header {
 }
 
 h1 { 
-    font-size: 2.5rem;
+    font-size: 3.25rem;
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 2.25rem;
 }
 
 h3 {
-    font-size: 1.0rem;
+    font-size: 1.75rem;
 }
 
 .title-text {
@@ -42,7 +42,7 @@ nav {
 }
 
 p {
-    font-size: 0.75rem;
+    font-size: 1.25rem;
 
 }
 
@@ -73,7 +73,7 @@ main {
 }
 
 .banner {
-    height: 600px;
+    height: 750px;
     width: 100%;
     background-image: url('../media/sim-exterior.jpg');
     background-repeat: no-repeat;
@@ -86,7 +86,7 @@ main {
 .motto-container {
     color: #333373;
     background-color: white;
-    height: 100px;
+    height: 125px;
     width: 100%;
 
     display: flex;
@@ -100,7 +100,7 @@ main {
 }
 
 .section {
-    height: 500px;
+    height: 700px;
     margin-top: 10px;
     display: flex;
     align-items: center;
@@ -127,13 +127,13 @@ main {
 }
 
 .aircraft img {
-    max-height: 300px;
-    max-width: 400px;
+    max-height: 375px;
+    max-width: 500px;
 }
 
 .team-member {
-    height: 300px;
-    width: 400px;
+    height: 375px;
+    width: 500px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -157,9 +157,12 @@ main {
 
 
 .team-text { 
-    height: 15%;
-    width: 50%;
-    margin: 0px 10px;
+    height: 25%;
+    width: 100%;
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .icon { 
@@ -172,7 +175,7 @@ main {
 }
 
 .copyright {
-    font-size: 10px;
+    font-size: 15px;
 }
 
 footer {
@@ -182,4 +185,7 @@ footer {
     
     justify-content: space-between;
     align-items: flex-end;
+}
+@media only  screen and (max-width: 900px){
+    
 }
