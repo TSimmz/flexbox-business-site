@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Montserrat', sans-serif;
     color: black;
 }
 
@@ -130,9 +130,20 @@ main {
     font-style: italic;
 }
 
+.aircraft {
+    overflow: hidden;
+}
+
 .aircraft img {
-    max-height: 375px;
+    width: 100%;
+    height: auto;
+    max-height: 325px;
     max-width: 500px;
+}
+
+.aircraft > img {
+    box-sizing: border-box;
+    padding: 10px;
 }
 
 .team-member {
@@ -194,10 +205,13 @@ main {
 }
 
 .location-banner img {
+    height: auto;
     max-width: 60%;
     max-height: 560px;
 
 }
+
+
 
 .location-text {
     box-sizing: border-box;
