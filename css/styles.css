@@ -251,7 +251,12 @@ footer {
 
 @media only screen and (max-width: 1280px)
 {
-
+    .motto-container h2 {
+        font-size: 2.0rem;
+    }
+    .motto-text {
+        font-size: 1.25rem;
+    }
     .section {
         height: 400px;
     }
