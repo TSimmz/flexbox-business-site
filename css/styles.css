@@ -219,7 +219,6 @@ main {
     height: auto;
     max-width: 60%;
     max-height: 560px;
-
 }
 
 .location-text {
@@ -247,6 +246,44 @@ footer {
     background-color: #005EB8;
     display: flex;
     align-items: center;
+}
+
+@media only screen and (max-width: 1620px)
+{
+    .team-member {
+        height: 290px;
+        width: 400px;
+    }
+
+    .team-text h3 {
+        font-size: 1.25rem;
+    }
+
+    .team-text p {
+        font-size: 0.8rem;
+    }
+
+    #location {
+        height: 600px;
+    }
+
+    .location-banner img {
+        height: auto;
+        max-width: 55%;
+    }
+
+    .location-text {
+        max-height: 450px;
+        width: 38%;
+    }
+
+    .location-text h3 {
+        font-size: 1.25rem;
+    }
+
+    .location-text p {
+        font-size: 0.8rem;
+    }
 }
 
 @media only screen and (max-width: 1280px)
